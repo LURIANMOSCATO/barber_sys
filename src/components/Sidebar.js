@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../App.css';
-import {MdDashboard} from 'react-icons/md'
+
 import {GiBeard} from 'react-icons/gi'
 import {RiMenu4Fill} from  'react-icons/ri'
 import { NavLink } from 'react-router-dom'
@@ -13,12 +13,12 @@ const Sidebar = ({children}) =>  {
         {
             path: "/",
             name: "home",
-            icon: <MdDashboard/>
+            icon: 
         },
         {
             path: "/agenda",
             name: "agenda",
-            icon: <MdDashboard/>
+            icon: 
         }
     ]
 
