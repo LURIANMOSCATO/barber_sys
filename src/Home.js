@@ -89,7 +89,7 @@ const Home = () => {
 
     return (
         <div className={styles.container}>
-        <h1>Ola<h1/>  
+        <h1>Ola</h1>  
         </div>
     );
 };
