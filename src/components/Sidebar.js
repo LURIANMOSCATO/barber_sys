@@ -26,7 +26,7 @@ const Sidebar = ({children}) =>  {
             <div className="top_section">
                 <h1 style={{display: isOpen ? "block" : "none"}}  className="logo">logo</h1>
                 <div style={{marginLeft: isOpen ? "50px" : "0px"}}  className="bars">
-                    <h1 onClick={toggle}/></h1>
+                    <div onClick={toggle}/>Menu</div>
                 </div>
             </div>
             <div>
