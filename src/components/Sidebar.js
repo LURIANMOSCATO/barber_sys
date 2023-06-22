@@ -13,12 +13,12 @@ const Sidebar = ({children}) =>  {
         {
             path: "/",
             name: "home",
-            icon: 
+            icon: <GiBeard/>
         },
         {
             path: "/agenda",
             name: "agenda",
-            icon: 
+            icon: <GiBeard/>
         }
     ]
 
