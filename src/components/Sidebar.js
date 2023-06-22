@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import '../App.css';
 
-import {GiBeard} from 'react-icons/gi'
-import {RiMenu4Fill} from  'react-icons/ri'
+
+
 import { NavLink } from 'react-router-dom'
 
 const Sidebar = ({children}) =>  {
